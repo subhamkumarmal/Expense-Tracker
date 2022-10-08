@@ -1,0 +1,93 @@
+.expense-tracker {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5660d6;
+  height: 100vh;
+}
+
+.expense-nav-bar {
+  width: 240px;
+  margin: 0px;
+  background-color: white;
+}
+
+.head-title {
+  align-items: center;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.desh-board-card {
+  display: flex;
+  justify-content: space-between;
+  width: 1155px;
+  margin: 20px;
+}
+
+.card {
+  width: 250px;
+  padding-left: 20px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+.dash-board-head {
+  color: white;
+  margin-left: 30px;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+li:hover {
+  background-color: whitesmoke;
+  color: white;
+  height: 20px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+.expense-items {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.expense-card {
+  width: 1130px;
+  background-color: #091f45;
+  margin-right: 40px;
+  border-radius: 20px;
+  padding: 15px 0 15px 0;
+  height: 200px;
+}
+
+.create-expense-btn {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+.btn-expense-create {
+  height: 35px;
+  border-radius: 10px;
+}
+.btn-expense-create:hover {
+  background-color: aquamarine;
+}
+.create-expense-new {
+  width: 800px;
+  background-color: #091f45;
+  height: 200px;
+  margin-right: 250px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.create-report-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
