@@ -16,21 +16,21 @@ export const DashBoardCard: FC = () => {
   return (
     <div>
       <div className="dash-board-head">
-        <h3>Dash Board</h3>
+        <h3>DashBoard Details</h3>
       </div>
       <div className="desh-board-card">
         {dashBoardExpenses &&
           dashBoardExpenses.map((item, key) => {
             return (
               <div className="card">
-                <h5>
+                <h6 className="spent-name">
                   {dashBoardCards[key].name}
                   <br />
-                  <span>{item.totalAmout}</span>
-                </h5>
-                <p>
+                  <span>Rs {item.totalAmout}</span>
+                </h6>
+                <p className="no-of-expense">
                   {dashBoardCards[key].expense}
-                  {item.onOfExpense}
+                  <span className="item-no">{item.onOfExpense}</span>
                 </p>
               </div>
             );

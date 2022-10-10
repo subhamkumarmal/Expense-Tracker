@@ -23,12 +23,31 @@
   width: 1155px;
   margin: 20px;
 }
+.spent-name {
+  font-size: 15px;
+  color: gray;
+}
+.no-of-expense {
+  font-weight: bold;
+}
+.item-no {
+  color: rgb(212, 123, 123);
+  margin-left: 10px;
+  font-size: 17px;
+}
+.dash-board-head {
+  margin-top: 5px;
+  font-style: italic;
+}
 
 .card {
   width: 250px;
   padding-left: 20px;
   background-color: antiquewhite;
   border-radius: 20px;
+  height: 100px;
+  align-items: center;
+  padding-top: 14px;
 }
 .dash-board-head {
   color: white;
@@ -52,7 +71,6 @@ a {
 
 .expense-items {
   padding-left: 20px;
-  padding-bottom: 10px;
 }
 
 .expense-card {
@@ -90,4 +108,16 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 15px;
+}
+a:hover {
+  text-decoration: none;
+  color: #5660d6;
+  font-weight: bold;
+}
+.expense {
+  color: #5660d6;
 }
